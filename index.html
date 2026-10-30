@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCare Computer Shop | Repair, Service & Sales</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+        @custom-variant dark (&:where(.dark, .dark *));
+    </style>
+</head>
+
+<body class="bg-slate-100 text-slate-800">
+
+    <header>
+        <nav>
+            <a href="#hero">TECHCARE.</a>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="darkModeToggle" type="button">
+                Toggle Dark Mode
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero">
+            <p>REPAIR • SERVICE • SALES</p>
+            <h1>Your Computer, Our Priority.</h1>
+            <p>
+                Reliable computer repair, professional IT services,
+                and quality computer products at affordable prices.
+            </p>
+            <a href="#contact">Get in Touch</a>
+            <button id="replayBtn" type="button">Replay Intro</button>
+        </section>
+
+        <section id="about">
+            <h2>About Our Business</h2>
+            <p>
+                TechCare Computer Shop provides dependable computer
+                repair, maintenance, technical support, and computer
+                products for students, professionals, and businesses.
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <div>
+                <article>
+                    <h3>Computer Repair</h3>
+                    <p>
+                        Diagnosis and repair of desktops, laptops,
+                        hardware problems, and system errors.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Computer Sales</h3>
+                    <p>
+                        Desktops, laptops, computer components,
+                        peripherals, and accessories.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Maintenance & Upgrades</h3>
+                    <p>
+                        System cleaning, RAM upgrades, SSD installation,
+                        and performance optimization.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="work">
+            <h2>Our Products</h2>
+
+            <div>
+                <article>
+                    <h3>Desktop Computers</h3>
+                    <p>Desktop systems for home, office, school, and gaming.</p>
+                </article>
+
+                <article>
+                    <h3>Laptops</h3>
+                    <p>Portable computers for students and professionals.</p>
+                </article>
+
+                <article>
+                    <h3>Parts & Accessories</h3>
+                    <p>Keyboards, mice, monitors, RAM, and storage devices.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <form action="#" method="get">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>TECHCARE COMPUTER SHOP</p>
+        <p>Computer Repair • Service • Sales</p>
+        <p>2026 TechCare Computer Shop. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
